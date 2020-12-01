@@ -1,0 +1,585 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Museo Sans", Noto Sans; }
+
+nav {
+  background-color: #000; }
+
+.navbar-toggler {
+  border: 1px solid white; }
+
+.navbar-nav .nav-item #log {
+  border: 1px solid #fff;
+  outline: none; }
+  @media all and (max-width: 991px) {
+    .navbar-nav .nav-item #log {
+      border: none; } }
+.navbar-nav .nav-item .fa {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  text-align: center;
+  outline: none; }
+  @media all and (max-width: 991px) {
+    .navbar-nav .nav-item .fa {
+      border: none; } }
+.navbar-nav .nav-item a {
+  color: #fff; }
+.navbar-nav .nav-item .nav-link {
+  padding: 0 2.2em !important; }
+  .navbar-nav .nav-item .nav-link :hover {
+    border-bottom: 1px solid #F47C4C !important;
+    cursor: pointer;
+    color: #F47C4C; }
+
+@media all and (max-width: 1100px) {
+  .button {
+    border: 1px solid #fff;
+    padding: 2px 34px !important;
+    color: #fff;
+    font-size: 1rem;
+    text-align: center; }
+    .button:hover {
+      background-color: #F47C4C;
+      color: #fff;
+      text-decoration: none; } }
+.home-banner, .sf-home-banner, .ft-home-banner, .bk-home-banner {
+  position: relative;
+  top: 8rem;
+  text-align: center;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  background-color: black; }
+  .home-banner .clbimg img, .sf-home-banner .clbimg img, .ft-home-banner .clbimg img, .bk-home-banner .clbimg img {
+    width: 100%; }
+  .home-banner .form1 .cmxform input, .sf-home-banner .form1 .cmxform input, .ft-home-banner .form1 .cmxform input, .bk-home-banner .form1 .cmxform input {
+    font-size: 20px;
+    border: 1px solid gray;
+    padding: 10px;
+    margin-top: 20px;
+    outline: none;
+    background-color: #000;
+    color: #fff;
+    width: 80%;
+    margin: 10px; }
+    .home-banner .form1 .cmxform input::placeholder, .sf-home-banner .form1 .cmxform input::placeholder, .ft-home-banner .form1 .cmxform input::placeholder, .bk-home-banner .form1 .cmxform input::placeholder {
+      color: #fff; }
+  .home-banner .form1 .cmxform .error, .sf-home-banner .form1 .cmxform .error, .ft-home-banner .form1 .cmxform .error, .bk-home-banner .form1 .cmxform .error {
+    color: red;
+    font-size: 12px; }
+  .home-banner .form1 .cmxform .sportin, .sf-home-banner .form1 .cmxform .sportin, .ft-home-banner .form1 .cmxform .sportin, .bk-home-banner .form1 .cmxform .sportin {
+    font-size: 20px;
+    border: 1px solid gray;
+    padding: 10px;
+    margin-top: 20px;
+    outline: none;
+    background-color: #000;
+    color: #fff;
+    width: 80%;
+    margin: auto;
+    text-align: center; }
+  .home-banner .form1 .cmxform .submit, .sf-home-banner .form1 .cmxform .submit, .ft-home-banner .form1 .cmxform .submit, .bk-home-banner .form1 .cmxform .submit {
+    background-color: rgba(250, 106, 29, 0.768);
+    padding: 10px 50px;
+    outline: none; }
+    .home-banner .form1 .cmxform .submit :hover, .sf-home-banner .form1 .cmxform .submit :hover, .ft-home-banner .form1 .cmxform .submit :hover, .bk-home-banner .form1 .cmxform .submit :hover {
+      background-color: #fff;
+      color: rgba(250, 106, 29, 0.768); }
+  .home-banner h1, .sf-home-banner h1, .ft-home-banner h1, .bk-home-banner h1 {
+    font-size: 5rem !important; }
+    @media (max-width: 575px) {
+      .home-banner h1, .sf-home-banner h1, .ft-home-banner h1, .bk-home-banner h1 {
+        font-size: 3rem !important; } }
+  .home-banner .top-text, .sf-home-banner .top-text, .ft-home-banner .top-text, .bk-home-banner .top-text {
+    font-size: 1.5rem; }
+  .home-banner span, .sf-home-banner span, .ft-home-banner span, .bk-home-banner span {
+    color: rgba(250, 106, 29, 0.768); }
+
+.about-us-sec, .sf-about-us {
+  background-color: #000;
+  text-align: center;
+  position: relative;
+  top: 8rem;
+  font-size: 15px; }
+  .about-us-sec h2, .sf-about-us h2 {
+    color: rgba(243, 161, 106, 0.768);
+    font-size: 3.3rem; }
+
+.aboutus1 {
+  background-color: #fff;
+  padding: 15px 10px;
+  margin: 0px 25px 10px 25px !important;
+  transform: translateY(-30px); }
+  .aboutus1 p {
+    color: #000;
+    font-size: 20px; }
+    @media all and (max-width: 991px) {
+      .aboutus1 p {
+        font-size: 15px; } }
+
+.home-difference-sec {
+  padding: 50px 0px; }
+  @media all and (max-width: 767px) {
+    .home-difference-sec h2 {
+      font-size: 2.2rem; } }
+  .home-difference-sec .fas {
+    float: left;
+    font-size: 25px; }
+  .home-difference-sec p {
+    text-align: justify;
+    float: left;
+    font-size: 17px;
+    letter-spacing: 0.3px; }
+    @media all and (max-width: 575px) {
+      .home-difference-sec p {
+        font-size: 15px; } }
+  .home-difference-sec h4 {
+    float: left;
+    margin: 20px 0 15px 0;
+    line-height: 1.1;
+    word-spacing: 4px;
+    margin: 0px !important; }
+
+.get-two-col-sec, .sf-about-us .sf-two-col-sec, .sf-about-us .bb-two-col-sec {
+  padding: 20px; }
+  .get-two-col-sec .img-abt img, .sf-about-us .sf-two-col-sec .img-abt img, .sf-about-us .bb-two-col-sec .img-abt img {
+    width: 100%; }
+  .get-two-col-sec h2, .sf-about-us .sf-two-col-sec h2, .sf-about-us .bb-two-col-sec h2 {
+    font-size: 2.2rem; }
+  .get-two-col-sec p, .sf-about-us .sf-two-col-sec p, .sf-about-us .bb-two-col-sec p {
+    text-align: justify;
+    color: #fff;
+    font-size: 17px;
+    letter-spacing: 0.5px; }
+  .get-two-col-sec .text, .sf-about-us .sf-two-col-sec .text, .sf-about-us .bb-two-col-sec .text {
+    padding: 20px; }
+
+.home-sports-section {
+  background-color: #fff;
+  padding: 10px 10px;
+  position: relative;
+  top: 8rem; }
+  .home-sports-section .sp-img img {
+    width: 100%; }
+  .home-sports-section h2 {
+    color: rgba(175, 92, 37, 0.768);
+    font-size: 2.4rem;
+    text-align: center;
+    margin-bottom: 1.8rem;
+    font-weight: bold; }
+  .home-sports-section .sports {
+    display: flex;
+    padding: 10px;
+    justify-content: center; }
+    .home-sports-section .sports h4 {
+      font-weight: bold;
+      text-align: center;
+      font-size: 1.4em !important; }
+
+.home-signees-sec {
+  position: relative;
+  top: 7rem;
+  background-color: #000; }
+  .home-signees-sec .signee-logo {
+    padding: 30px; }
+    @media all and (max-width: 575px) {
+      .home-signees-sec .signee-logo {
+        text-align: center; } }
+    .home-signees-sec .signee-logo .signee-img img {
+      width: 20%; }
+    .home-signees-sec .signee-logo p {
+      color: #fff;
+      font-size: 14px; }
+    .home-signees-sec .signee-logo h2 {
+      padding: 20px 0px;
+      color: rgba(175, 92, 37, 0.768);
+      font-size: 2.4rem;
+      text-align: left; }
+      @media all and (max-width: 575px) {
+        .home-signees-sec .signee-logo h2 {
+          text-align: center; } }
+    .home-signees-sec .signee-logo span {
+      font-family: 'Dancing Script', cursive;
+      color: #fff;
+      font-size: 25px; }
+    .home-signees-sec .signee-logo a {
+      border: 1px solid #fff;
+      padding: 4px 3rem;
+      outline: none;
+      color: #fff;
+      font-size: 1rem;
+      text-decoration: none; }
+      @media all and (max-width: 333px) {
+        .home-signees-sec .signee-logo a {
+          padding: 1px 1rem; } }
+      .home-signees-sec .signee-logo a :hover {
+        text-decoration: none;
+        cursor: pointer; }
+
+.home-newsletter-section {
+  background-color: #fff;
+  position: relative;
+  top: 13rem; }
+  .home-newsletter-section .newsletter {
+    background-color: #000;
+    padding: 80px 40px;
+    border-radius: 5px;
+    display: flex; }
+    @media all and (max-width: 991px) {
+      .home-newsletter-section .newsletter img {
+        display: none; } }
+    @media all and (max-width: 575px) {
+      .home-newsletter-section .newsletter {
+        display: block; } }
+
+.form2 {
+  border: 1px solid grey;
+  margin-left: 50px; }
+  .form2 .submit {
+    color: red; }
+  .form2 input {
+    margin-top: 30px;
+    background-color: #000;
+    border: none; }
+    .form2 input:hover {
+      border: none; }
+    .form2 input::placeholder {
+      color: #fff; }
+  .form2:before {
+    content: url("../Images/em1.PNG");
+    position: relative;
+    left: 7.2rem;
+    bottom: 4rem; }
+    @media all and (max-width: 991px) {
+      .form2:before {
+        display: none; } }
+  .form2:after {
+    content: url("../Images/em2.PNG");
+    position: relative;
+    top: 4rem;
+    right: 13rem; }
+    @media all and (max-width: 991px) {
+      .form2:after {
+        display: none; } }
+
+footer {
+  background-image: url("../Images/footer1.jpg");
+  margin-top: 10em;
+  padding: 40px 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% !important;
+  text-align: center; }
+  @media all and (max-width: 767px) {
+    footer {
+      background-image: none;
+      background-color: #000; } }
+  footer .footer-top-row .logo-img img, footer .footer-top-row1 .logo-img img {
+    width: 30%; }
+  footer .footer-top-row a, footer .footer-top-row1 a {
+    color: #fff; }
+  footer .footer-bottom {
+    margin-top: 20px; }
+    footer .footer-bottom .paypal-img img {
+      width: 60%; }
+    footer .footer-bottom .menu-list ul li {
+      list-style: none;
+      color: #fff;
+      padding: 0px 20px 0px 20px;
+      display: inline-flex;
+      justify-content: space-between; }
+
+.sf-home-banner, .ft-home-banner, .bk-home-banner {
+  background-image: url("../Images/softballbg.PNG") !important;
+  background-position: right;
+  height: 30vh;
+  background-repeat: no-repeat;
+  text-align: left;
+  padding: 50px;
+  background-size: 38% 100%; }
+  .sf-home-banner h1, .ft-home-banner h1, .bk-home-banner h1 {
+    font-size: 3.7rem !important; }
+
+.sf-about-us {
+  background-color: #fff;
+  position: relative;
+  top: 7rem; }
+  .sf-about-us .sf-two-col-sec p, .sf-about-us .bb-two-col-sec p {
+    color: #000;
+    font-size: 16px !important; }
+  .sf-about-us .sf-two-col-sec .text, .sf-about-us .bb-two-col-sec .text {
+    margin-top: 30px; }
+  .sf-about-us .sf-two-col-sec .view-package-btn, .sf-about-us .bb-two-col-sec .view-package-btn {
+    font-size: 16px;
+    letter-spacing: 1.17px;
+    color: #ffffff;
+    width: 409px;
+    max-width: 100%;
+    height: 47px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F47C4C;
+    border: 1px solid #F47C4C;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    text-decoration: none;
+    cursor: pointer; }
+
+.packages-sec {
+  position: relative;
+  top: 11rem;
+  background-color: #000;
+  padding: 40px; }
+  .packages-sec h2 {
+    color: #F47C4C;
+    font-weight: 500;
+    margin-bottom: 80px;
+    text-align: center; }
+    @media (max-width: 767px) {
+      .packages-sec h2 {
+        font-size: 40px; } }
+  .packages-sec .contact {
+    background-color: #000; }
+    .packages-sec .contact a {
+      border: 1px solid grey;
+      margin-top: 25px;
+      border-radius: 4px;
+      height: 58px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-transform: uppercase;
+      font-size: 18px;
+      color: #ffffff;
+      font-weight: 300; }
+  .packages-sec .package-div, .packages-sec .package-div1, .packages-sec .package-div2 {
+    background: linear-gradient(90deg, #B4862E 0%, #FBE99D 17.35%, #E0BF65 70.47%, #CFA74C 100%);
+    border-radius: 4px;
+    height: auto; }
+    @media (max-width: 767px) {
+      .packages-sec .package-div, .packages-sec .package-div1, .packages-sec .package-div2 {
+        height: auto;
+        padding: 50px 0px; } }
+    @media (max-width: 991px) {
+      .packages-sec .package-div, .packages-sec .package-div1, .packages-sec .package-div2 {
+        padding: 50px 0px 20px 0px; } }
+    .packages-sec .package-div h3, .packages-sec .package-div1 h3, .packages-sec .package-div2 h3 {
+      text-transform: uppercase;
+      font-size: 32px;
+      font-weight: 300;
+      margin-bottom: 50px;
+      text-align: center;
+      padding: 27px; }
+    .packages-sec .package-div ul, .packages-sec .package-div1 ul, .packages-sec .package-div2 ul {
+      margin: 0px;
+      padding: 0px; }
+      .packages-sec .package-div ul li, .packages-sec .package-div1 ul li, .packages-sec .package-div2 ul li {
+        font-size: 18px;
+        font-weight: 500;
+        padding: 23px 30px;
+        border-bottom: 1px solid rgba(51, 51, 51, 0.3);
+        list-style: none; }
+    @media (max-width: 575px) {
+      .packages-sec .package-div ul li, .packages-sec .package-div1 ul li, .packages-sec .package-div2 ul li {
+        font-size: 16px; } }
+    @media (max-width: 991px) {
+      .packages-sec .package-div ul li, .packages-sec .package-div1 ul li, .packages-sec .package-div2 ul li {
+        padding: 15px; } }
+  .packages-sec .package-div1, .packages-sec .package-div2 {
+    background: linear-gradient(90deg, #8F9293 0%, #FBFBFB 13.46%, #FBFBFB 70.47%, #ADAEB2 100%);
+    height: 91%; }
+  .packages-sec .package-div2 {
+    background: linear-gradient(90deg, #75462C 0%, #DFBA9F 13.46%, #C9895F 70.47%, #854C32 100%);
+    height: 91%; }
+
+.faq-section {
+  background-color: #fff;
+  position: relative;
+  top: 15rem; }
+  .faq-section .faq {
+    background-color: #000;
+    padding: 20px 40px;
+    border-radius: 5px; }
+    .faq-section .faq h2 {
+      color: #F47C4C;
+      font-size: 2rem;
+      justify-content: center;
+      text-align: center; }
+    .faq-section .faq ul li {
+      color: #fff;
+      list-style: none;
+      justify-content: center;
+      text-align: center;
+      font-size: 16px;
+      padding: 20px 30px;
+      text-align: center; }
+
+footer {
+  margin-top: 19em; }
+
+.ft-home-banner, .bk-home-banner {
+  background-image: url("../Images/footballbg.PNG") !important; }
+
+.contact-info-section {
+  position: relative;
+  top: 14rem;
+  margin-top: 100px;
+  margin-bottom: 50px; }
+  .contact-info-section h3 {
+    color: #F47C4C; }
+  .contact-info-section h4 a, .contact-info-section p a {
+    color: #000; }
+  .contact-info-section .social-li .first-row {
+    display: inline-flex; }
+  .contact-info-section .social-li .second-row {
+    display: inline-flex;
+    margin-left: 2px; }
+  .contact-info-section .social-li .fab {
+    color: #0f66e9; }
+  .contact-info-section .social-li .fb {
+    color: #d8396e; }
+  .contact-info-section .social-li li {
+    list-style: none; }
+    .contact-info-section .social-li li a {
+      color: #000;
+      text-decoration: none; }
+  .contact-info-section .nav-tabs {
+    border-bottom: none;
+    background-color: #fff;
+    justify-content: center;
+    padding: 50px 0px; }
+    .contact-info-section .nav-tabs a {
+      color: #F47C4C;
+      border-color: #F47C4C;
+      padding: 8px 43px;
+      border-radius: 0.25rem; }
+    .contact-info-section .nav-tabs .nav-link:hover {
+      color: white;
+      background-color: #F47C4C; }
+
+.form-section {
+  position: relative;
+  top: 19rem;
+  background-color: #000; }
+  .form-section h2 {
+    color: #F47C4C;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+    padding: 25px; }
+  .form-section .form1 .cmxform {
+    padding: 20px;
+    justify-content: center;
+    text-align: center; }
+    .form-section .form1 .cmxform input {
+      font-size: 20px;
+      border: 1px solid gray;
+      padding: 10px;
+      margin-top: 20px;
+      outline: none;
+      background-color: #000;
+      color: #fff;
+      width: 80%;
+      margin: auto; }
+      .form-section .form1 .cmxform input::placeholder {
+        color: #fff; }
+    .form-section .form1 .cmxform textarea {
+      font-size: 20px;
+      border: 1px solid gray;
+      padding: 10px;
+      margin-top: 20px;
+      outline: none;
+      background-color: #000;
+      color: #fff;
+      width: 80%;
+      margin: auto; }
+      .form-section .form1 .cmxform textarea::placeholder {
+        color: #fff; }
+    .form-section .form1 .cmxform .error {
+      color: red;
+      font-size: 12px; }
+    .form-section .form1 .cmxform .submit {
+      background-color: rgba(250, 106, 29, 0.768);
+      padding: 10px 50px;
+      outline: none;
+      text-align: center;
+      justify-content: center; }
+      .form-section .form1 .cmxform .submit :hover {
+        background-color: #fff;
+        color: rgba(250, 106, 29, 0.768); }
+    .form-section .form1 .cmxform .texta {
+      font-size: 20px;
+      background-color: #000;
+      border: 1px solid gray;
+      padding: 5px;
+      margin-top: 20px;
+      width: 80%;
+      height: 180px;
+      font-family: sans-serif;
+      resize: none; }
+    .form-section .form1 .cmxform .texta:focus {
+      outline-width: 0px; }
+
+.bk-home-banner {
+  height: 45vh;
+  background-image: url("../Images/basketbg.PNG") !important; }
+
+.bb-two-col-sec .nav-tabs {
+  border-bottom: none;
+  background-color: #fff;
+  justify-content: center; }
+  .bb-two-col-sec .nav-tabs a {
+    color: #F47C4C;
+    border-color: #F47C4C;
+    padding: 8px 43px;
+    border-radius: 0.25rem; }
+  .bb-two-col-sec .nav-tabs .nav-link:hover {
+    color: white;
+    background-color: #F47C4C; }
+
+.basketball-signee-section {
+  position: relative;
+  top: 14rem; }
+  .basketball-signee-section h2 {
+    color: #F47C4C;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 10px; }
+  .basketball-signee-section .nav-tabs {
+    border-bottom: none;
+    background-color: #fff;
+    justify-content: center; }
+    .basketball-signee-section .nav-tabs a {
+      color: #F47C4C;
+      border-color: #F47C4C;
+      padding: 8px 43px;
+      border-radius: 0.25rem; }
+    .basketball-signee-section .nav-tabs .nav-link:hover {
+      color: white;
+      background-color: #F47C4C; }
+  .basketball-signee-section .tab-content {
+    padding: 20px; }
+    .basketball-signee-section .tab-content .signee-img img {
+      width: 100%; }
+    .basketball-signee-section .tab-content .signee-img1 img {
+      width: 81%; }
+    .basketball-signee-section .tab-content .signee-img2 img {
+      width: 85%; }
+    .basketball-signee-section .tab-content .signee-img3 img {
+      width: 55%; }
+    .basketball-signee-section .tab-content .signee-img4 img {
+      width: 100%;
+      margin-top: 10px; }
+    .basketball-signee-section .tab-content .signee-img5 img {
+      width: 100%;
+      margin-top: 92px; }
+    .basketball-signee-section .tab-content .signee-img6 img {
+      width: 76%; }
+    .basketball-signee-section .tab-content .signee-img7 img {
+      width: 65%; }
+
+/*# sourceMappingURL=master.css.map */

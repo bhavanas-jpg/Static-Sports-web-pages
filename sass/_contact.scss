@@ -1,0 +1,137 @@
+.contact-info-section{
+
+    position:relative;
+    top:14rem;
+    margin-top:100px;
+    margin-bottom: 50px;
+
+     h3{
+         color: #F47C4C;
+     }
+     h4, p{
+         a{
+             color:#000;
+         }
+        }
+
+    .social-li{
+        .first-row{
+            display:inline-flex;
+        }
+        .second-row{
+            display:inline-flex;
+            margin-left: 2px;
+        }
+        .fab{
+            color:rgb(15, 102, 233);
+        }
+        .fb{
+            color: rgb(216, 57, 110);
+        }
+         li{
+             list-style: none;
+          
+            a{ color:#000;
+               text-decoration: none;} 
+         }
+     }
+
+     .nav-tabs {
+        border-bottom: none;
+        background-color: #fff;
+        justify-content: center;
+        padding: 50px 0px;
+       a {
+            color: #F47C4C;
+            border-color:#F47C4C;
+            padding: 8px 43px;
+            border-radius: 0.25rem; }
+           .nav-link:hover {
+              color: white;
+              background-color: #F47C4C; }
+
+        }        
+    }
+
+.form-section{
+    position: relative;
+    top:19rem;
+    background-color: #000;
+    h2{
+        color: #F47C4C;
+        font-size: 30px;
+        text-align: center;
+        margin-top: 30px;
+        padding: 25px;
+    }
+
+    .form1 .cmxform{
+        padding: 20px;
+        justify-content: center;
+        text-align:center;
+        input{
+            font-size: 20px;
+            border: 1px solid gray;
+            padding: 10px;
+            margin-top: 20px;
+            outline: none;
+            background-color: #000;
+            color: #fff;
+            width: 80%;
+            margin: auto;
+
+        &::placeholder{
+            color:#fff;
+        }
+    }
+        textarea{
+            font-size: 20px;
+            border: 1px solid gray;
+            padding: 10px;
+            margin-top: 20px;
+            outline: none;
+            background-color: #000;
+            color: #fff;
+            width: 80%;
+            margin: auto;
+    
+            &::placeholder{
+                color:#fff;
+            }
+        }
+           
+           
+        .error{
+        color:red;
+        font-size: 12px;
+            }
+            .submit{
+                background-color:rgba(250, 106, 29, 0.768);
+                padding: 10px 50px;
+                outline:none;
+                text-align: center;
+                justify-content: center;
+               
+                :hover{
+                    background-color: #fff;
+                    color:rgba(250, 106, 29, 0.768);
+                }   
+            }
+
+            .texta {
+                font-size: 20px;
+                background-color:#000;
+                border: 1px solid gray;
+                padding: 5px;
+                margin-top: 20px;
+                width: 80%;
+                height: 180px;
+                font-family: sans-serif;
+                resize: none; }
+              
+              .texta:focus {
+                outline-width: 0px; }
+        }
+
+
+}

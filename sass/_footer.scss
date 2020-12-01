@@ -1,0 +1,48 @@
+  footer{
+     background-image: url("../Images/footer1.jpg") ;
+     margin-top: 10em;
+     padding: 40px 0;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: 100% !important;
+     text-align: center;
+     @media all and (max-width:767px){
+         background-image:none;
+         background-color: #000;
+     }
+     .footer-top-row{
+
+        .logo-img{
+          img{
+            width: 30%;
+          }
+        }
+         a{
+             color:#fff; 
+         }
+         }
+    .footer-bottom{
+      margin-top: 20px;
+      .paypal-img{
+        img{
+          width:60%;
+        }
+      }
+    .menu-list ul li{
+         list-style:none;
+         color:#fff;
+         padding: 0px 20px 0px 20px;
+        display: inline-flex;
+         justify-content: space-between;
+                 }
+            }
+       }
+    
+
+       
+   
+
+  
+  
+    
+

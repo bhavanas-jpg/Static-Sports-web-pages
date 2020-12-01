@@ -1,0 +1,80 @@
+.bk-home-banner{
+     @extend .ft-home-banner;
+     height: 45vh;
+     background-image: url("../Images/basketbg.PNG") !important;
+}
+
+.bb-two-col-sec{
+    @extend .sf-two-col-sec;
+
+   .nav-tabs {
+        border-bottom: none;
+        background-color: #fff;
+        justify-content: center;
+       a {
+            color: #F47C4C;
+            border-color:#F47C4C;
+            padding: 8px 43px;
+            border-radius: 0.25rem; }
+           .nav-link:hover {
+              color: white;
+              background-color: #F47C4C; }
+
+     }        
+   }
+
+   .basketball-signee-section{
+       position: relative;
+       top:14rem;
+       h2{
+           color:#F47C4C;
+           text-align: center;
+           font-size: 40px;
+           margin-bottom: 10px;
+       }
+      .nav-tabs{
+        border-bottom: none;
+        background-color: #fff;
+        justify-content: center;
+        
+       a {
+            color: #F47C4C;
+            border-color:#F47C4C;
+            padding: 8px 43px;
+            border-radius: 0.25rem; }
+           .nav-link:hover {
+              color: white;
+              background-color: #F47C4C; }
+      }
+
+      .tab-content {
+        padding:20px;
+      .signee-img{
+      img{ width: 100%;  }
+          }
+     .signee-img1{
+      img{ width: 81%;  }
+         }
+     .signee-img2{
+     img{ width: 85%;  }
+      }
+    .signee-img3{
+     img{ width: 55%;  }
+     }
+    .signee-img4{
+     img{ width: 100%;
+        margin-top: 10px;  }
+     }
+    .signee-img5{
+     img{ width: 100%; 
+        margin-top: 92px; }
+      }
+      .signee-img6{
+        img{ width: 76%;  }
+        }
+      .signee-img7{
+     img{ width: 65%;  }
+        }  
+
+    }
+   }

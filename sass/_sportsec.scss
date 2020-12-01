@@ -1,0 +1,160 @@
+ .home-sports-section{
+    background-color: #fff;
+    padding:10px 10px;
+    position:relative;
+    top:8rem;
+       
+    .sp-img{
+       img{
+          width: 100%;
+       }
+    }
+
+    h2{
+     color:rgba(175, 92, 37, 0.768);
+     font-size: 2.4rem;
+     text-align: center;
+     margin-bottom: 1.8rem;
+     font-weight: bold;
+      }
+     
+    .sports{
+       display: flex;
+       padding: 10px;
+       justify-content: center;
+
+       h4{
+          font-weight:bold;
+          text-align: center;
+          font-size: 1.4em !important;
+          }
+      
+         }
+      
+   }
+ // Sports section end
+
+//Signee section:start
+.home-signees-sec{
+    position:relative;
+    top:7rem;
+    background-color: #000;
+   
+    .signee-logo{
+    padding: 30px;
+
+    @media all and(max-width:575px){
+      text-align: center;
+    }
+
+    .signee-img{
+       img{
+          width:20%;
+       }
+    }
+    p{
+       color:#fff;
+       font-size: 14px;
+      }
+    h2{
+    padding:20px 0px;
+    color:rgba(175, 92, 37, 0.768);
+    font-size: 2.4rem;
+    text-align:left;
+    @media all and(max-width:575px)
+    {
+    text-align:center;  
+    }
+   }    
+   span{
+      font-family: 'Dancing Script', cursive;
+      color:#fff;
+      font-size: 25px;
+       }
+    a{
+    border:1px solid #fff;
+    padding: 4px 3rem;
+    outline:none;
+    color:#fff;
+    font-size:1rem;
+    text-decoration: none;
+     @media all and (max-width:333px)
+     {
+        padding: 1px 1rem;
+     }
+   :hover{
+    text-decoration: none;
+    cursor: pointer;
+       }
+    }
+ }
+ }
+ //signee section: ends
+ 
+ //newsletter section:start
+ .home-newsletter-section{
+    background-color: #fff;
+    position:relative;
+    top:13rem;
+    .newsletter{
+       background-color: #000;
+       padding: 80px 40px;
+       border-radius: 5px;
+       display: flex;
+       
+       @media all and (max-width:991px)
+       {
+         img{
+            display: none;
+         }
+      }
+       @media all and (max-width:575px)
+       {
+          display:block;
+         
+       }
+     }
+
+      }
+
+      .form2{
+         border:1px solid grey;
+         margin-left:50px;
+         .submit{
+            color:red;
+         }
+         input{
+            margin-top: 30px;
+            background-color: #000;
+            border:none;
+            &:hover{
+               border: none;
+            }
+            &::placeholder{
+               color:#fff;
+            }
+         }
+         &:before{
+            content:url("../Images/em1.PNG");
+            position: relative;
+            left: 7.2rem;
+            bottom: 4rem;
+            @media all and (max-width:991px)
+            {
+               display:none;
+            }
+         }
+         &:after{
+            content:url("../Images/em2.PNG");
+            position: relative;
+            top:4rem;
+            right:13rem;
+            @media all and (max-width:991px)
+            {
+               display:none;
+            }
+         }
+      }
+
+  //newsletter section:end     
+

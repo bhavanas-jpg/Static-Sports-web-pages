@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+       <!--Bootstrap CDN-->
+       <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.min.js"></script>
+        <script src="index.js"></script>  
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+       <!--CSS link-->
+        <link rel="stylesheet" href="css/master.css" type="text/css">
+       <!--FontAwesome CDN-->
+        <script src="https://kit.fontawesome.com/9fa96fd4f5.js" crossorigin="anonymous"></script>
+
+       <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!--Header : Start-->
+  <header>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container text-uppercase p-2">
+        <a class="navbar-brand" href="#"><img src="./Images/logo.PNG" alt="recruiting-boost-logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto  text-white">
+            <li class="nav-item "><a class="nav-link" href="softball.html">softball</a> </li>
+            <li class="nav-item"><a class="nav-link" href="basketball.html">basketball</a></li>
+            <li class="nav-item"> <a class="nav-link" href="football.html">football</a> </li>
+            <li class="nav-item"><a class="nav-link" href="#">contact</a> </li> 
+            <li class="nav-item"><a class="nav-link"  id="log" href="#">LOG IN</a></li>
+            <li class="nav-item">
+                <a class="nav-link"  href="#"><i class="fa fa-twitter p-2"></i></a>
+            </li>
+          </ul>
+        </div>
+       </div>
+    </nav>
+</header>
+<!--Header : Ends--> 
+<!--Home Banner : Starts-->  
+<div class="sf-home-banner">
+  <div class="container text-white"> 
+    <h1>Contact Us</h1>
+   </div>
+   </div> 
+  <!--Home Banner : Ends--> 
+ <!--Start of Contact Info Sec-->
+<div class="contact-info-section">
+<div class="container">
+ <div class="row">
+ <div class="col-md-4 col-sm-12">
+     <h3>Founder, CEO</h3>
+     <h4>Cassius Bosket</h4>
+     <p><a href="mailto:cb@recruitingboostexposure.com">cb@recruitingboostexposure.com</a></p>
+     <p><a href="tel:864-980-3781">864-980-3781</a></p>
+ </div>
+ <div class="col-md-4 col-sm-12">
+    <h3>Director of Softball</h3>
+    <h4>Lea Ann Jarvis</h4>
+    <p><a href="mailto:rboostsoftball@gmail.com">rboostsoftball@gmail.com</a></p>
+    <p><a href="tel:">864-980-3781</a></p>
+</div>
+<div class="col-sm-12 col-md-4">
+ <h3>Social Media</h3>
+<ul class="social-li">
+ <li><a href="https://twitter.com/recruitingboost"><i class="fab fa-twitter first-row"></i> &nbsp;@recruitingboost &nbsp;</a></li>
+ <li><a href="https://twitter.com/recruitingboost"><i class="fab fa-twitter first-row"></i>&nbsp;@rboostfootball &nbsp;</a></li>                      
+ <li><a href="https://twitter.com/recruitingboost"><i class="fab fa-twitter second-row"></i> &nbsp;@boostwbb &nbsp; &nbsp;</a></li>
+ <li><a href="https://instagram.com/recruitingboost"><i class=" fb fab fa-instagram second-row"></i> &nbsp;@recruitingboost</a></li>                                         
+</ul>
+</div>
+</div>
+
+<ul class="nav nav-tabs nav-justified flex-column flex-sm-row">
+  <li><a class="flex-sm-fill text-sm-center nav-link active"  data-toggle="tab" href="#contact-us">CONTACT US</a></li>
+  <li><a class="flex-sm-fill text-sm-center nav-link"  data-toggle="tab" href="#helping-hands">HELPING HANDS FORM</a></li>
+</ul>
+</div>
+</div>
+ <!--End of Contact Info Sec-->
+<!--Start of form-->
+<div class="form-section">
+  <div class="container">
+    <h2>We Want to Hear From You!</h2>
+<div class="form1">
+  <form class="cmxform" id="commentForm" method="get" action="#">
+    <fieldset>
+      <div class="row">
+        <div class="col-md-6">
+      <p><input id="cname" name="name" minlength="10" type="text"  placeholder="Name" required></p>
+        </div>
+        <div class="col-md-6">
+      <p><input type="text" id="phone" name=phone placeholder="Phone" required></p>
+      </div>
+      <div class="col-md-6">
+      <p><input type="text" id="subject" name=subject placeholder="Subject" required></p>
+      </div>
+      <div class="col-md-6">
+      <p><input id="cemail" type="email" name="email"  placeholder="Email" required></p>
+      </div>
+      <div class="col-md-6">
+      <p><input id="address" type="text" name="address"  placeholder="Address" required></p>
+      </div>
+      <div class="col-md-6">
+        <textarea  id="message" name="message"  placeholder="Message" class="texta"></textarea>
+       </div>
+    </div>
+    <div><input type="submit" class="submit" value="Contact Us"></div>
+    </fieldset>
+  </form>
+</div>   
+  
+</div>
+</div>    
+<!--End of form-->
+ <!-- Start of footer Section -->
+ <footer class="footer1">
+    <div class="container">
+      <div class="row footer-top-row1">
+        <div class="col-md-4 mail-col">
+            <a href="mailto:recruitingboostgmail.com">recruitingboostgmail.com</a>
+        </div>
+        <div class="col-md-4   footer-logo-col">
+            <a href="#"><img src="./Images/logo.PNG" alt="Recruiting-boost-logo" style="width:30%;"></a>
+        </div>
+        <div class="col-md-4 tel-col">
+            <a href="tel:864-980-3781">864-980-3781</a>
+        </div>
+    </div>  
+     <!--Start of footer bottom row section-->  
+   <div class="footer-bottom">
+    <div class="row">
+      <div class="col-md-3 paypal-img">
+      <img src="./Images/paypal.jpg" alt="paypal">
+      </div>
+      <div class="col-md-9 menu-list">
+        <ul>
+          <li>SOFTBALL</li>
+          <li>BASKETBALL</li>
+          <li>FOOTBALL</li>
+          <li>CONTACT</li>
+        </ul>
+      </div>
+    </div>
+  </div> 
+    <!--End of footer bottom row section-->  
+   <p  style="color:white;  font-size:14px;" class="copyright">@2020 by Recruiting Boost</p>
+   </div>
+ </footer>
+<!-- End of footer Section -->  
+  </body>
+  </html>
